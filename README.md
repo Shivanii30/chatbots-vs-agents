@@ -12,16 +12,15 @@ They are better systems.
 
 ### Stack
 - LangGraph
-- Ollama (llama3)
 - SQLite
 
 ### How to Run
-1. Start Ollama
-2. Initialize database:
+1. Initialize database:
    python -c "from db import init_db; init_db()"
 
-3. Run chatbot:
+2. Run chatbot:
    python chatbot.py
 
-4. Run agent:
+3. Run agent:
    python agent_langgraph.py
+
